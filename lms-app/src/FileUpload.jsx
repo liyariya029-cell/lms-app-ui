@@ -5,7 +5,7 @@ export default function FileUpload() {
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
 
-  /*const handleFileChange = (e) => {
+  const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
     setFile(selectedFile);
 
@@ -17,7 +17,7 @@ export default function FileUpload() {
       setPreview(null);
     }
   };
-*/
+
 
   return (
     <div style={{ padding: "20px" }}>
